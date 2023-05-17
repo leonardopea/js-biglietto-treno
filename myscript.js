@@ -19,22 +19,25 @@ let prezzo_scontato_senior = prezzo_intero * 60 / 100;
 
 
 
-if  (isNaN('anni') && isNaN('km')) {
+if  (isNaN(anni) || isNaN(km)) {
 
     alert(" Attenzione: inserire un numero");
                
 } else if  (anni < 18) {
 
     document.getElementById('prezzo_finale').innerHTML = ` Il tuo biglietto costa: ${prezzo_scontato_junior.toFixed(2)} €`; 
-        
+            
 } else if (anni > 65) {
-        
+            
     document.getElementById('prezzo_finale').innerHTML = `Il tuo biglietto costa: ${prezzo_scontato_senior.toFixed(2)} €`;
-
+    
 } else {
-        
+            
     document.getElementById('prezzo_finale').innerHTML = `Il tuo biglietto costa: ${prezzo_intero.toFixed(2)} €`;
 }
+
+
+
             
         
         
