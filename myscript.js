@@ -3,7 +3,7 @@
 let anni = parseInt (prompt ('Inserisci età del soggetto'));
 console.log(anni);
 
-if (anni >100){
+if (anni >100) {
     alert(" Attenzione: il soggetto deve avere meno di 100 anni per viaggiare con noi")
 } else{
     
