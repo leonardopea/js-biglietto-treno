@@ -13,10 +13,10 @@ if (anni > 100 || anni < 1) {
     alert(" Attenzione: il soggetto deve avere un'età compresa tra 1 e 100 anni per viaggiare con noi");
 
     } else if (isNaN('anni') && isNaN('km')) {
-        alert("Attenzione: non sono stati inseriti dei numeri")
+        alert("Attenzione: non sono stati inseriti dei numeri");
 
         }else{
-            console.log("continua")
+            console.log("continua");
         }
         
 
