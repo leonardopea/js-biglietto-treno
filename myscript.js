@@ -17,9 +17,10 @@ let prezzo_scontato_junior = prezzo_intero * 80 / 100 ;
 
 let prezzo_scontato_senior = prezzo_intero * 60 / 100;
 
+if (anni > 100 || anni < 1){
+    alert(" Attenzione: per viaggiare con noi devi avere un'età compresa tra 1 e 100 anni");
 
-
-if  (isNaN(anni) || isNaN(km)) {
+} else if  (isNaN(anni) || isNaN(km)) {
 
     alert(" Attenzione: inserire un numero");
                
